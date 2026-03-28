@@ -10,6 +10,7 @@ response = requests.get(url, headers=headers)
 # Проверяем код ответа (должен быть 200)
 print("Статус ответа:", response.status_code)
 
+
 # 3. Готовим парсер
 soup = BeautifulSoup(response.text, 'html.parser')
 
