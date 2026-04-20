@@ -8,7 +8,7 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath("../Лабораторная работа 4/Задание 2")) # Указывает на папку
+sys.path.insert(0, os.path.abspath("../Лабораторная работа 4/Задание2")) # Указывает на папку
 
 project = 'LR4Antonova'
 copyright = '2026, Antonova Anastasiya'
