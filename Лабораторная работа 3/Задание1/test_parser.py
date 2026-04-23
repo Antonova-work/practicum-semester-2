@@ -70,6 +70,7 @@ def test_fetch_html_server_error(mock_get):
     mock_response = Mock()
     mock_response.status_code = 404
     # Имитируем поведение raise_for_status при ошибке (вызов исключения).
+    # Выкидываем исключение при вызове мока.
     mock_response.raise_for_status.side_effect = Exception("HTTP Error occurred")
     mock_get.return_value = mock_response
 
